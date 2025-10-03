@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Matthew L. Shaw · Portfolio</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="wrap">
+    <h1>Matthew L. Shaw</h1>
+    <p class="tag">IT Systems · Army Veteran · Builder</p>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.pdf">Resume</a>
+      <a href="timeline.html">Timeline</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>About</h2>
+      <p>I support Windows Server/AD, Linux (Arch), networking, and automation. This site will expand with a photo timeline and project deep dives.</p>
+    </section>
+
+    <section class="card">
+      <h2>Highlights</h2>
+      <ul>
+        <li>Active Directory, Intune/Entra, imaging/deployment</li>
+        <li>Arch/Omarchy, Docker, scripting (PowerShell/Python)</li>
+        <li>LLM/RAG tinkering: AnythingLLM + Open WebUI + Ollama</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:matthew@matthewlshaw.org">matthew@matthewlshaw.org</a> · LinkedIn: <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/matthewlshaw/">/in/matthewlshaw</a></p>
+    </section>
+  </main>
+
+  <footer class="wrap foot">© <span id="y"></span> Matthew L. Shaw</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
